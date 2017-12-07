@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Какой сейчас год?",
+    "answers": 
+    {
+      "answer1": "2017",
+      "answer2": "2018",
+      "answer3": "2100",
+      "answer4": "1991"
+    },
+    "corrected": "answer1"
+  },
+  {
+    "question": "Какой формы Земля?",
+    "answers": 
+    {
+      "answer1": "Квадратная",
+      "answer2": "Треугольная",
+      "answer3": "Шарообразная",
+      "answer4": "Тетраэдр"
+    },
+    "corrected": "answer3"
+  },
+  {
+    "question": "Где Учить PHP?",
+    "answers": 
+    {
+      "answer1": "Нигде",
+      "answer2": "В Нетологии",
+      "answer3": "А зачем?",
+      "answer4": "В космосе"
+    },
+    "corrected": "answer2"
+  }
+]

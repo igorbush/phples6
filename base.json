@@ -1,0 +1,46 @@
+[{
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "address": "г.Москва, ул. Алиева,2",
+  "phoneNumber": "812 123-1234"
+}, {
+  "firstName": "Игорь",
+  "lastName": "Петров",
+  "address": "г.Тверь, ул. Куратова,12",
+  "phoneNumber": "815 121-5678"
+}, {
+  "firstName": "Андрей",
+  "lastName": "Сидоров",
+  "address": "г.Лондон, ул. Норд-Амберлен,100",
+  "phoneNumber": "909 112-9928"
+}, {
+  "firstName": "Василий",
+  "lastName": "Пуговкин",
+  "address": "г.Подольск, ул. Интернациональная,55",
+  "phoneNumber": "890 282-1019"
+}, {
+  "firstName": "Дмитрий",
+  "lastName": "Палкин",
+  "address": "г.Сыктывкар, ул. Тимурязева,178",
+  "phoneNumber": "945 178-7312"
+}, {
+  "firstName": "Антон",
+  "lastName": "Долгов",
+  "address": "г.Майами, ул. Нильсена,7",
+  "phoneNumber": "999 115-0481"
+}, {
+  "firstName": "Говард",
+  "lastName": "Утка",
+  "address": "г.Нью-Йорк, ул. Линкольна,44",
+  "phoneNumber": "784 744-4775"
+}, {
+  "firstName": "Роман",
+  "lastName": "Лукин",
+  "address": "г.Томск, ул. Ленина,68",
+  "phoneNumber": "851 585-7419"
+}, {
+  "firstName": "Владимир",
+  "lastName": "Колков",
+  "address": "г.Рязань, ул. Колкова,99",
+  "phoneNumber": "999 111-5564"
+}]
