@@ -23,15 +23,23 @@
 		    echo "Ошибка: файл НЕ загружен! Файл должен быть типа .json<br>";
 		    exit;
 	    }
-		if($_FILES['uploaded_file']['error'] === UPLOAD_ERR_OK && move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $target_file))
+	    $test_json = $_FILES['uploaded_file']['name'];
+		$test = file_get_contents($test_json);
+		$test = json_decode($test, true);
+		foreach($test as $qnumber => $qobj)
 		{
-			echo "Файл загружен" . "<br>";
-		}
-		else
-		{
-			echo "Файл НЕ загружен" . "<br>";
-		}
+			if (isset($qnumber) && isset($qobj['answers']) && isset($qobj['question'])) 
+			{  
+			if($_FILES['uploaded_file']['error'] === UPLOAD_ERR_OK && move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $target_file))
+			{
+				echo "Файл загружен" . "<br>";
+			}}
+			else
+			{
+			echo "Файл НЕ загружен" . "<br>"; break;
+			}
 		
+	}
 	}
 ?>
 <a href="list.php">Список тестов</a><br>
