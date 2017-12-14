@@ -23,7 +23,7 @@
 		    echo "Ошибка: файл НЕ загружен! Файл должен быть типа .json<br>";
 		    exit;
 	    }
-	    $test_json = $_FILES['uploaded_file']['name'];
+	    $test_json = $_FILES['uploaded_file']['tmp_name'];
 		$test = file_get_contents($test_json);
 		$test = json_decode($test, true);
 		foreach($test as $qnumber => $qobj)
